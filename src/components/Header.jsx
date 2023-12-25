@@ -44,7 +44,7 @@ export const Header = () => {
 
     return (
         <div className="flex justify-center items-center min-h-20 bg-transparent sticky">
-            <header className="flex justify-between w-full max-w-screen-2xl px-6">
+            <header className="flex justify-between w-full max-w-screen-2xl px-2 lg:px-6">
                 <div className="flex items-center gap-2 cursor-pointer">
                     <img src={logo} alt="Logo" width={60} />
                     <div className="hidden lg:block hover:text-blue-500 font-medium transition-colors">
@@ -52,7 +52,7 @@ export const Header = () => {
                         <p>Loholaberry</p>
                     </div>
                 </div>
-                <nav className="hidden md:flex items-center gap-10">
+                <nav className="hidden md:flex items-center gap-10 mx-2">
                     {titleLinks.map((el) => {
                         return (
                             <a
@@ -66,7 +66,7 @@ export const Header = () => {
                     })}
                 </nav>
                 <div className="hidden md:block self-center">
-                    <button className="rounded-full border-2 border-blue-500 text-blue-500 px-6 py-1 text-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out active:bg-blue-600">
+                    <button className="rounded-full border-2 border-blue-500 text-blue-500 px-6 py-1 text-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out active:bg-blue-600 whitespace-nowrap">
                         My Github
                     </button>
                 </div>

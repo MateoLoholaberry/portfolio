@@ -11,7 +11,7 @@ export const Skills = () => {
                     for the past 2 years.
                 </p>
 
-                <div className="grid grid-cols-2 gap-8 m-8">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 m-8">
                     {skills.map((el) => {
                         return (
                             <SkillsCard

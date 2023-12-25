@@ -11,11 +11,11 @@ export const Hero = () => {
             >
                 <div
                     id="heroInnerContainer"
-                    className="flex flex-col md:flex-row items-center w-full max-w-screen-2xl justify-between mx-6 gap-4 md:gap-0"
+                    className="flex flex-col lg:flex-row items-center w-full max-w-screen-2xl justify-between mx-6 gap-4 md:gap-0"
                 >
                     <div
                         id="heroLeftContainer"
-                        className="mb-8 flex flex-col items-center md:items-start w-full order-2 md:order-1"
+                        className="mb-8 flex flex-col items-center lg:items-start w-full order-2 lg:order-1"
                     >
                         <h2 className="text-4xl font-bold text-center sm:text-start">
                             Hi I&apos;m {Bio.name}!
@@ -40,7 +40,7 @@ export const Hero = () => {
                     </div>
                     <div
                         id="heroRightContainer"
-                        className="w-full flex items-center justify-end md:items-end order-1 md:order-2"
+                        className="w-full flex items-center justify-center lg:justify-end lg:items-end order-1 lg:order-2 mb-4"
                     >
                         <img
                             src={heroImage}
