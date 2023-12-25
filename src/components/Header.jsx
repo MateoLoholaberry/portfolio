@@ -7,32 +7,39 @@ export const Header = () => {
     const titleLinks = [
         {
             title: "About",
-            url: "#",
+            url: "#About",
         },
         {
             title: "Skills",
-            url: "#",
+            url: "#Skills",
         },
         {
             title: "Experience",
-            url: "#",
+            url: "#Experience",
         },
         {
             title: "Projects",
-            url: "#",
+            url: "#Projects",
         },
         {
             title: "Education",
-            url: "#",
+            url: "#Education",
         },
     ];
 
     const [menuToggle, setMenuToggle] = useState(false);
-    const nav = useRef(null);
+    const navMobile = useRef(null);
 
     const handleMenuToggle = () => {
-        setMenuToggle(!menuToggle);
-        nav.current.classList.toggle("hidden");
+        if (menuToggle) {
+            setMenuToggle(false);
+            navMobile.current.classList.add("-top-64");
+            navMobile.current.classList.remove("top-20");
+        } else {
+            setMenuToggle(true);
+            navMobile.current.classList.remove("-top-64");
+            navMobile.current.classList.add("top-20");
+        }
     };
 
     return (
@@ -45,12 +52,6 @@ export const Header = () => {
                         <p>Loholaberry</p>
                     </div>
                 </div>
-                <button
-                    className="md:hidden cursor-pointer text-2xl transition"
-                    onClick={handleMenuToggle}
-                >
-                    {menuToggle ? <IoClose /> : <GiHamburgerMenu />}
-                </button>
                 <nav className="hidden md:flex items-center gap-10">
                     {titleLinks.map((el) => {
                         return (
@@ -65,19 +66,29 @@ export const Header = () => {
                     })}
                 </nav>
                 <div className="hidden md:block self-center">
-                    <button className="rounded-full border-2 border-blue-500 text-blue-500 px-6 py-1 text-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">
+                    <button className="rounded-full border-2 border-blue-500 text-blue-500 px-6 py-1 text-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out active:bg-blue-600">
                         My Github
                     </button>
                 </div>
+                <button
+                    className="md:hidden cursor-pointer text-2xl"
+                    onClick={handleMenuToggle}
+                >
+                    {menuToggle ? <IoClose /> : <GiHamburgerMenu />}
+                </button>
             </header>
             {/* Menu Mobile */}
-            <div className="absolute flex flex-col top-20 w-full items-center justify-center bg-slate-500 py-3 rounded-b-lg">
+            <div
+                className="absolute -top-64 flex flex-col w-full items-center justify-center bg-slate-500/50 py-3 rounded-b-lg transition-all z-50 ease-in-out duration-300 backdrop-blur-sm"
+                ref={navMobile}
+            >
                 {titleLinks.map((el) => {
                     return (
                         <a
                             href={el.url}
                             key={el.title}
                             className="font-medium text-lg mb-2"
+                            onClick={handleMenuToggle}
                         >
                             {el.title}
                         </a>
