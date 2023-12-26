@@ -20,7 +20,7 @@ export const Hero = () => {
                         <h2 className="text-4xl font-bold text-center sm:text-start">
                             Hi I&apos;m {Bio.name}!
                         </h2>
-                        <div className="text-3xl font-bold">
+                        <div className="text-3xl font-bold text-center">
                             I am a{" "}
                             <span className="inline-block text-blue-600">
                                 <TypewriterComponent
@@ -32,7 +32,9 @@ export const Hero = () => {
                                 />
                             </span>
                         </div>
-                        <p className="text-lg">{Bio.description}</p>
+                        <p className="text-lg text-center lg:text-start">
+                            {Bio.description}
+                        </p>
 
                         <button className="mt-4 bg-gradient-to-r from-cyan-500 to-blue-500 py-2 px-4 rounded-2xl text-lg font-medium hover:scale-110 transition duration-300 shadow-lg shadow-cyan-500/50 hover:brightness-110 active:scale-100">
                             Check my Resume!
@@ -45,7 +47,7 @@ export const Hero = () => {
                         <img
                             src={heroImage}
                             alt="foto de perfil"
-                            className="w-[400px] h-[400px] object-cover object-center rounded-full border-2 border-blue-500"
+                            className="w-[280px] h-[280px] sm:w-[400px] sm:h-[400px] object-cover object-center rounded-full border-2 border-blue-500"
                         />
                     </div>
                 </div>
