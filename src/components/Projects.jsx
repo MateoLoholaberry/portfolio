@@ -2,16 +2,9 @@ import { useState } from "react";
 import { projects } from "../data/constants";
 import { ProjectCard } from "./ProjectCard";
 import { ProjectCardModal } from "./ProjectCardModal";
+import ReactModal from "react-modal";
 
 export const Projects = () => {
-    const [projectSelected, setProjectSelected] = useState({});
-    const [openCloseModal, setOpenCloseModal] = useState(false);
-
-    const handleModal = (project) => {
-        setProjectSelected(project);
-        setOpenCloseModal(true);
-    };
-
     return (
         <div
             id="Projects"
@@ -27,26 +20,9 @@ export const Projects = () => {
                 </p>
                 <div className="flex justify-center items-center flex-wrap gap-8">
                     {projects.map((el) => {
-                        return (
-                            <ProjectCard
-                                key={el.id}
-                                project={el}
-                                handleModal={handleModal}
-                            />
-                        );
+                        return <ProjectCard key={el.id} project={el} />;
                     })}
                 </div>
-            </div>
-
-            <div
-                className={`fixed top-0 bottom-0 right-0 left-0 bg-black/50 flex justify-center items-center ${
-                    openCloseModal ? "block" : "hidden"
-                }`}
-            >
-                <ProjectCardModal
-                    project={projectSelected}
-                    openCloseModal={openCloseModal}
-                />
             </div>
         </div>
     );

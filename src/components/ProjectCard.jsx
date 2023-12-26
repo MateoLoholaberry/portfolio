@@ -1,11 +1,6 @@
-import React from "react";
-
-export const ProjectCard = ({ project, handleModal }) => {
+export const ProjectCard = ({ project }) => {
     return (
-        <div
-            className="w-80 h-[480px] cursor-pointer border-2 border-cyan-500 shadow-lg shadow-cyan-500/50 rounded-xl px-5 py-6 flex flex-col gap-3 hover:-translate-y-2 hover:brightness-105 transition duration-300 hover:shadow-xl hover:shadow-cyan-900"
-            onClick={(el) => handleModal(project)}
-        >
+        <div className="w-80 h-[480px] cursor-pointer border-2 border-cyan-500 shadow-lg shadow-cyan-500/50 rounded-xl px-5 py-6 flex flex-col gap-3 hover:-translate-y-2 hover:brightness-105 transition duration-300 hover:shadow-xl hover:shadow-cyan-900">
             <img src={project.img} alt="" className="rounded-md object-cover" />
             <div className="flex flex-wrap w-full gap-2 items-center">
                 {project.tags.map((el) => {
