@@ -1,3 +1,30 @@
+export const titleLinks = [
+    {
+        title: "About",
+        url: "#about",
+    },
+    {
+        title: "Skills",
+        url: "#skills",
+    },
+    {
+        title: "Experience",
+        url: "#experience",
+    },
+    {
+        title: "Projects",
+        url: "#projects",
+    },
+    {
+        title: "Education",
+        url: "#education",
+    },
+    {
+        title: "Contact",
+        url: "#contact",
+    },
+];
+
 export const Bio = {
     name: "Mateo Loholaberry",
     roles: [
@@ -8,6 +35,12 @@ export const Bio = {
     ],
     description:
         "Highly motivated and passionate developer. I have strong skills in programming, problem-solving, and effective collaboration. I am continuously acquiring new skills to contribute in the best possible way to future projects.",
+    github: "https://github.com/MateoLoholaberry",
+    resume: "https://drive.google.com/file/d/1YA2ZAUj2nJYqagt8bY78epAVNz1VCMXZ/view?usp=sharing",
+    linkedin: "https://www.linkedin.com/in/mateo-loholaberry/?locale=en_US",
+    twitter: "",
+    insta: "",
+    facebook: "",
 };
 
 export const skills = [
@@ -141,7 +174,7 @@ export const experiences = [
         company: "IncluIT powered by Avenga",
         date: "Aug 2022 - jul 2023",
         description: `I worked daily using .NET and .NET MAUI technology.
-My responsibilities included developing newfeatures for mobile applications and troubleshooting bugs that came up in those apps.`,
+My responsibilities included developing new features for mobile applications and troubleshooting bugs that came up in those apps.`,
         skills: [
             ".NET",
             "C#",
@@ -180,7 +213,7 @@ My responsibilities included developing newfeatures for mobile applications and 
 export const projects = [
     {
         id: 0,
-        title: "Trackify",
+        title: "Trackify 0",
         date: "Jun 2023 - Jul 2023",
         description:
             "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. Admin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials: #Email: testemployee@gmail.com #Password- 123@Testemployee",
@@ -204,7 +237,7 @@ export const projects = [
     },
     {
         id: 1,
-        title: "Trackify",
+        title: "Trackify 1",
         date: "Jun 2023 - Jul 2023",
         description:
             "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. Admin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials: #Email: testemployee@gmail.com #Password- 123@Testemployee",
@@ -228,7 +261,7 @@ export const projects = [
     },
     {
         id: 2,
-        title: "Trackify",
+        title: "Trackify 2",
         date: "Jun 2023 - Jul 2023",
         description:
             "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. Admin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials: #Email: testemployee@gmail.com #Password- 123@Testemployee",
@@ -252,7 +285,7 @@ export const projects = [
     },
     {
         id: 3,
-        title: "Trackify",
+        title: "Trackify 3",
         date: "Jun 2023 - Jul 2023",
         description:
             "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. Admin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials: #Email: testemployee@gmail.com #Password- 123@Testemployee",
@@ -273,5 +306,18 @@ export const projects = [
         github: "https://github.com/rishavchanda/Trackify",
         webapp: "https://trackify.duckdns.org",
         img: "src/assets/project_image.png",
+    },
+];
+
+export const education = [
+    {
+        id: 0,
+        img: "src/assets/carena_logo.png",
+        school: "Instituto Superior Dr.Carlos María Carena",
+        date: "Jan 2021 - Dec 2023",
+        grade: "9.56 CGPA",
+        description:
+            "I am currently finishing a Higher Technician degree in software development at Carena institute, in Mina Clavero. I have completed 3 years and have a CGPA of 9.56. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
+        degree: "Higher Technician - Software development",
     },
 ];

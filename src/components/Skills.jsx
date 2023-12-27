@@ -5,7 +5,7 @@ export const Skills = () => {
     return (
         <div
             id="skills"
-            className="py-10 px-8 flex items-center justify-center"
+            className="pt-24 px-10 flex items-center justify-center"
         >
             <div className="w-full max-w-screen-2xl">
                 <h2 className="text-4xl font-bold text-center mb-4">Skills</h2>

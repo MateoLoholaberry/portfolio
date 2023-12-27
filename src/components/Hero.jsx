@@ -7,7 +7,7 @@ export const Hero = () => {
         <div id="about">
             <div
                 id="heroContainer"
-                className="bg-slate-400 py-10 md:py-16 my-clip-path flex items-center justify-center relative"
+                className="bg-slate-400 py-[5.5rem] my-clip-path flex items-center justify-center relative"
             >
                 <div
                     id="heroInnerContainer"
@@ -15,7 +15,7 @@ export const Hero = () => {
                 >
                     <div
                         id="heroLeftContainer"
-                        className="mb-8 flex flex-col items-center lg:items-start w-full order-2 lg:order-1"
+                        className="my-8 flex flex-col self-start items-center lg:items-start w-full order-2 lg:order-1"
                     >
                         <h2 className="text-4xl font-bold text-center sm:text-start">
                             Hi I&apos;m {Bio.name}!
@@ -36,9 +36,14 @@ export const Hero = () => {
                             {Bio.description}
                         </p>
 
-                        <button className="mt-4 bg-gradient-to-r from-cyan-500 to-blue-500 py-2 px-4 rounded-2xl text-lg font-medium hover:scale-110 transition duration-300 shadow-lg shadow-cyan-500/50 hover:brightness-110 active:scale-100">
+                        <a
+                            className="mt-4 bg-gradient-to-r from-cyan-500 to-blue-500 py-2 px-4 rounded-2xl text-lg font-medium hover:scale-110 transition duration-300 shadow-lg shadow-cyan-500/50 hover:brightness-110 active:scale-100"
+                            href={Bio.resume}
+                            rel="noreferrer noopener"
+                            target="_blank"
+                        >
                             Check my Resume!
-                        </button>
+                        </a>
                     </div>
                     <div
                         id="heroRightContainer"

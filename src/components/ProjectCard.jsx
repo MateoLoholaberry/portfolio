@@ -1,7 +1,14 @@
-export const ProjectCard = ({ project }) => {
+export const ProjectCard = ({ project, openModal }) => {
     return (
-        <div className="w-80 h-[480px] cursor-pointer border-2 border-cyan-500 shadow-lg shadow-cyan-500/50 rounded-xl px-5 py-6 flex flex-col gap-3 hover:-translate-y-2 hover:brightness-105 transition duration-300 hover:shadow-xl hover:shadow-cyan-900">
-            <img src={project.img} alt="" className="rounded-md object-cover" />
+        <div
+            className="w-80 h-[480px] cursor-pointer border-2 border-cyan-500 shadow-lg shadow-cyan-500/50 rounded-xl px-5 py-6 flex flex-col gap-3 hover:-translate-y-2 hover:brightness-105 transition duration-300 hover:shadow-xl hover:shadow-cyan-900"
+            onClick={() => openModal(project)}
+        >
+            <img
+                src={project.img}
+                alt=""
+                className="rounded-md h-[180px] object-fill"
+            />
             <div className="flex flex-wrap w-full gap-2 items-center">
                 {project.tags.map((el) => {
                     return (

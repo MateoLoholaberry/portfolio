@@ -1,4 +1,7 @@
+import { Education } from "./components/Education";
 import { Experience } from "./components/Experience";
+import { Footer } from "./components/Footer";
+import { Form } from "./components/Form";
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
 import { Projects } from "./components/Projects";
@@ -12,6 +15,9 @@ const App = () => {
             <Skills></Skills>
             <Experience></Experience>
             <Projects></Projects>
+            <Education></Education>
+            <Form></Form>
+            <Footer></Footer>
         </>
     );
 };
