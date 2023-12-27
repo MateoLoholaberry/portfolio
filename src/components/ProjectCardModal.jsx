@@ -23,8 +23,8 @@ export const ProjectCardModal = ({ project, closeModal, isOpen }) => {
                         height: "90%",
                         width: "75%",
                         margin: "auto",
-                        maxHeight: "1200px",
-                        maxWidth: "1800px",
+                        maxHeight: "1000px",
+                        maxWidth: "900px",
                         paddingTop: "10px",
                     },
                 }}
@@ -61,6 +61,24 @@ export const ProjectCardModal = ({ project, closeModal, isOpen }) => {
                             </h4>
                             <p className="text-gray-400">{project.date}</p>
                             <p className="mt-1 mb-4">{project.description}</p>
+                        </div>
+                        <div className="flex w-full justify-center gap-10 text-center">
+                            {project.repo && (
+                                <a
+                                    href="#"
+                                    className="bg-blue-400 px-4 py-2 grow rounded-lg text-lg font-semibold hover:bg-blue-500 transition duration-300 max-w-[600px]"
+                                >
+                                    View Code
+                                </a>
+                            )}
+                            {project.webapp && (
+                                <a
+                                    href="#"
+                                    className="bg-blue-400 px-4 py-2 grow rounded-lg text-lg font-semibold hover:bg-blue-500 transition duration-300 max-w-[600px]"
+                                >
+                                    View Live App
+                                </a>
+                            )}
                         </div>
                     </div>
                 </div>

@@ -7,11 +7,11 @@ export const Hero = () => {
         <div id="about">
             <div
                 id="heroContainer"
-                className="bg-slate-400 py-[5.5rem] my-clip-path flex items-center justify-center relative"
+                className="bg-gray-400 py-[5.5rem] my-clip-path flex items-center justify-center relative"
             >
                 <div
                     id="heroInnerContainer"
-                    className="flex flex-col lg:flex-row items-center w-full max-w-screen-2xl justify-between mx-6 gap-4 md:gap-0"
+                    className="flex flex-col lg:flex-row items-center w-full max-w-screen-2xl justify-between mx-10 gap-4 md:gap-0"
                 >
                     <div
                         id="heroLeftContainer"

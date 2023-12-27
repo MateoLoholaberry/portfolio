@@ -21,8 +21,8 @@ export const Header = () => {
     };
 
     return (
-        <div className="flex justify-center items-center h-20 bg-transparent sticky top-0 z-20 bg-white">
-            <header className="flex justify-between md:justify-evenly lg:justify-between w-full max-w-screen-2xl px-2 lg:px-6">
+        <div className="flex justify-center items-center h-20 sticky top-0 z-20 bg-gray-400">
+            <header className="flex justify-between md:justify-evenly lg:justify-between w-full max-w-screen-2xl px-4 lg:px-10">
                 <a
                     className="flex items-center gap-2 cursor-pointer"
                     href="#about"
@@ -47,7 +47,7 @@ export const Header = () => {
                 </nav>
                 <div className="hidden lg:block self-center">
                     <a
-                        className="rounded-full border-2 border-blue-500 text-blue-500 px-6 py-1 text-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out active:bg-blue-600 whitespace-nowrap"
+                        className="rounded-full border-2 border-blue-600 text-blue-600 px-6 py-1 text-lg hover:bg-blue-600 hover:text-white transition duration-300 ease-in-out active:bg-blue-500 active:border-blue-500 whitespace-nowrap"
                         href={Bio.github}
                         target="_blank"
                         rel="noreferrer noopener"
