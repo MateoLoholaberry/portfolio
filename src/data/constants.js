@@ -162,6 +162,10 @@ export const skills = [
                 name: "Postman",
                 image: "https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/external-postman-is-the-only-complete-api-development-environment-logo-color-tal-revivo.png",
             },
+            {
+                name: "WordPress",
+                image: "https://img.icons8.com/color/48/wordpress.png",
+            },
         ],
     },
 ];
