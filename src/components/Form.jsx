@@ -18,7 +18,9 @@ export const Form = () => {
                         Email Me! 🚀
                     </h3>
                     <form
-                        action="#"
+                        name="contact"
+                        method="POST"
+                        data-netlify="true"
                         className="flex flex-col w-full gap-1 px-8"
                     >
                         <label
