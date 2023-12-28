@@ -5,12 +5,12 @@ import Maui_logo from "../assets/dotnet_bot.svg";
 import xaml_logo from "../assets/xaml_logo.webp";
 import vscode_logo from "../assets/Visual_Studio_Code.png";
 import finca_logo from "../assets/finca_logo.png";
-import menu_logo from "../assets/menu_blog.png";
+import menu_logo from "../assets/menu_blog.jpg";
 import incluit_logo from "../assets/incluit_logo.png";
 import sistema_Finca_logo from "../assets/sistema_finca.png";
-import portfolio_logo from "../assets/my_portfolio.png";
-import travel_page_logo from "../assets/travel_page.png";
-import login_page_logo from "../assets/login_page.png";
+import portfolio_logo from "../assets/my_portfolio.jpg";
+import travel_page_logo from "../assets/travel_page.jpg";
+import login_page_logo from "../assets/login_page.jpg";
 import calculator_logo from "../assets/calculator.png";
 
 export const titleLinks = [
