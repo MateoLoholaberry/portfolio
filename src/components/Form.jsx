@@ -19,10 +19,10 @@ export const Form = () => {
                     </h3>
                     <form
                         name="contact"
-                        method="POST"
-                        netlify
+                        method="post"
                         className="flex flex-col w-full gap-1 px-8"
                     >
+                        <input type="hidden" name="form-name" value="contact" />
                         <label
                             htmlFor="name"
                             className="block text-sm font-medium text-gray-700"
