@@ -1,3 +1,18 @@
+import carena_logo from "../assets/carena_logo.png";
+import blazor_logo from "../assets/Blazor.png";
+import cSharp_logo from "../assets/csharp-logo.png";
+import Maui_logo from "../assets/dotnet_bot.svg";
+import xaml_logo from "../assets/xaml_logo.webp";
+import vscode_logo from "../assets/visual_studio_code.png";
+import finca_logo from "../assets/finca_logo.png";
+import menu_logo from "../assets/menu_blog.png";
+import incluit_logo from "../assets/incluit_logo.png";
+import sistema_Finca_logo from "../assets/sistema_finca.png";
+import portfolio_logo from "../assets/my_portfolio.png";
+import travel_page_logo from "../assets/travel_page.png";
+import login_page_logo from "../assets/login_page.png";
+import calculator_logo from "../assets/calculator.png";
+
 export const titleLinks = [
     {
         title: "About",
@@ -81,7 +96,7 @@ export const skills = [
             },
             {
                 name: "Blazor",
-                image: "src/assets/Blazor.png",
+                image: blazor_logo,
             },
         ],
     },
@@ -110,7 +125,7 @@ export const skills = [
             },
             {
                 name: "C#",
-                image: "src/assets/csharp-logo.png",
+                image: cSharp_logo,
             },
             {
                 name: "SQL Server",
@@ -123,11 +138,11 @@ export const skills = [
         skills: [
             {
                 name: ".NET MAUI",
-                image: "src/assets/dotnet_bot.svg",
+                image: Maui_logo,
             },
             {
                 name: "XAML",
-                image: "src/assets/xaml_logo.webp",
+                image: xaml_logo,
             },
         ],
     },
@@ -144,7 +159,7 @@ export const skills = [
             },
             {
                 name: "VS Code",
-                image: "src/assets/visual_studio_code.png",
+                image: vscode_logo,
             },
             {
                 name: "Figma",
@@ -173,7 +188,7 @@ export const skills = [
 export const experiences = [
     {
         id: 0,
-        img: "src/assets/incluit_logo.png",
+        img: incluit_logo,
         role: "Mobile Programmer internship",
         company: "IncluIT powered by Avenga",
         date: "Aug 2022 - jul 2023",
@@ -194,7 +209,7 @@ My responsibilities included developing new features for mobile applications and
     },
     {
         id: 1,
-        img: "src/assets/finca_logo.png",
+        img: finca_logo,
         role: "Fullstack Django (Tesis)",
         company: "Sanchez Amezcua S.A",
         date: "Mar 2023 - Dec 2023",
@@ -233,7 +248,7 @@ export const projects = [
         category: "web page",
         repo: "https://github.com/MateoLoholaberry/proyecto-menu",
         webapp: "",
-        img: "src/assets/menu_blog.png",
+        img: menu_logo,
     },
     {
         id: 4,
@@ -253,7 +268,7 @@ export const projects = [
         category: "web page",
         repo: "",
         webapp: "https://mateolohola.pythonanywhere.com/",
-        img: "src/assets/sistema_finca.png",
+        img: sistema_Finca_logo,
     },
     {
         id: 5,
@@ -264,8 +279,8 @@ export const projects = [
         tags: ["React", "JSX", "Javascript", "HTML", "CSS", "Tailwind"],
         category: "web page",
         repo: "https://github.com/MateoLoholaberry/portfolio",
-        webapp: "",
-        img: "src/assets/my_portfolio.png",
+        webapp: "https://mateo-loholaberry-portfolio.netlify.app",
+        img: portfolio_logo,
     },
     {
         id: 0,
@@ -284,7 +299,7 @@ export const projects = [
         category: "web page",
         repo: "https://github.com/MateoLoholaberry/Travel-page",
         webapp: "https://mateoloholaberry.github.io/Travel-page/",
-        img: "src/assets/travel_page.png",
+        img: travel_page_logo,
     },
     {
         id: 1,
@@ -296,7 +311,7 @@ export const projects = [
         category: "web page",
         repo: "https://github.com/MateoLoholaberry/Login-form",
         webapp: "https://mateoloholaberry.github.io/Login-form/",
-        img: "src/assets/login_page.png",
+        img: login_page_logo,
     },
     {
         id: 2,
@@ -308,14 +323,14 @@ export const projects = [
         category: "web page",
         repo: "https://github.com/MateoLoholaberry/calculadora-js",
         webapp: " https://mateoloholaberry.github.io/calculadora-js/",
-        img: "src/assets/calculator.png",
+        img: calculator_logo,
     },
 ];
 
 export const education = [
     {
         id: 0,
-        img: "src/assets/carena_logo.png",
+        img: carena_logo,
         school: "Instituto Superior Dr.Carlos María Carena",
         date: "Jan 2021 - Dec 2023",
         grade: "9.56 CGPA",
