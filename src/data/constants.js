@@ -3,7 +3,7 @@ import blazor_logo from "../assets/Blazor.png";
 import cSharp_logo from "../assets/csharp-logo.png";
 import Maui_logo from "../assets/dotnet_bot.svg";
 import xaml_logo from "../assets/xaml_logo.webp";
-import vscode_logo from "../assets/visual_studio_code.png";
+import vscode_logo from "../assets/Visual_Studio_Code.png";
 import finca_logo from "../assets/finca_logo.png";
 import menu_logo from "../assets/menu_blog.png";
 import incluit_logo from "../assets/incluit_logo.png";
