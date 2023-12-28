@@ -20,7 +20,7 @@ export const Form = () => {
                     <form
                         name="contact"
                         method="POST"
-                        data-netlify="true"
+                        netlify
                         className="flex flex-col w-full gap-1 px-8"
                     >
                         <label
