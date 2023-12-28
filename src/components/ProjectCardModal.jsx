@@ -65,16 +65,20 @@ export const ProjectCardModal = ({ project, closeModal, isOpen }) => {
                         <div className="flex w-full justify-center gap-10 text-center">
                             {project.repo && (
                                 <a
-                                    href="#"
+                                    href={project.repo}
                                     className="bg-blue-400 px-4 py-2 grow rounded-lg text-lg font-semibold hover:bg-blue-500 transition duration-300 max-w-[600px]"
+                                    target="_blank"
+                                    rel="noreferrer noopener"
                                 >
                                     View Code
                                 </a>
                             )}
                             {project.webapp && (
                                 <a
-                                    href="#"
+                                    href={project.webapp}
                                     className="bg-blue-400 px-4 py-2 grow rounded-lg text-lg font-semibold hover:bg-blue-500 transition duration-300 max-w-[600px]"
+                                    target="_blank"
+                                    rel="noreferrer noopener"
                                 >
                                     View Live App
                                 </a>

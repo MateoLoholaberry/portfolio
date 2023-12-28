@@ -1,5 +1,4 @@
 import { useState, useRef } from "react";
-import logo from "../assets/Mi_logo.jfif";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoClose } from "react-icons/io5";
 import { Bio, titleLinks } from "../data/constants";
