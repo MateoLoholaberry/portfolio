@@ -35,6 +35,7 @@ export const Form = () => {
                             placeholder="Name"
                             name="name"
                             id="name"
+                            required
                         />
                         <label
                             htmlFor="email"
@@ -48,6 +49,7 @@ export const Form = () => {
                             placeholder="Email"
                             name="email"
                             id="email"
+                            required
                         />
                         <label
                             htmlFor="subject"
@@ -61,6 +63,7 @@ export const Form = () => {
                             placeholder="Subject"
                             name="subject"
                             id="subject"
+                            required
                         />
                         <label
                             htmlFor="message"
@@ -73,6 +76,7 @@ export const Form = () => {
                             className="border rounded-lg focus:border-blue-600 p-2.5 border-gray-500 placeholder-gray-400-100 outline-none mb-2 focus:ring-blue-200 focus:ring h-44 resize-none"
                             name="message"
                             id="message"
+                            required
                         ></textarea>
 
                         <button
