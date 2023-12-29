@@ -235,7 +235,7 @@ export const projects = [
         title: "Menu Blog",
         date: "oct 2023 - Nov 2023",
         description:
-            "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. Admin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials: #Email: testemployee@gmail.com #Password- 123@Testemployee",
+            "This is a blog about cooking created with Python, along with Django Rest Framework for the backend and React for the front-end. Within the blog, we have a section where all the recipes are listed, another one featuring highlighted recipes, also separated by categories such as drinks, meats, etc. Additionally, it also includes a general search function for all recipes.",
         tags: [
             "Python",
             "Django",
@@ -255,7 +255,7 @@ export const projects = [
         title: "Sistema Finca",
         date: "Jan 2023 - Dec 2023",
         description:
-            "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. Admin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials: #Email: testemployee@gmail.com #Password- 123@Testemployee",
+            "Web application designed as a final project for my career. It help the company to maintain grape traceability  and also is useful for employers to keep track of their employees. Admin Credentials: #Username: Mateo #Password: mateo123.",
         tags: [
             "Python",
             "Django",
@@ -275,8 +275,16 @@ export const projects = [
         title: "My portfolio",
         date: "Nov 2023 - Dec 2023",
         description:
-            "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. Admin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials: #Email: testemployee@gmail.com #Password- 123@Testemployee",
-        tags: ["React", "JSX", "Javascript", "HTML", "CSS", "Tailwind"],
+            "Portfolio created with React.js that serves as an online portfolio to showcase my work, skills, and achievements. It provides an overview of my background, displays my projects, and offers a way to contact me.",
+        tags: [
+            "React",
+            "JSX",
+            "Javascript",
+            "HTML",
+            "CSS",
+            "Tailwind",
+            "Netlify",
+        ],
         category: "web page",
         repo: "https://github.com/MateoLoholaberry/portfolio",
         webapp: "https://mateo-loholaberry-portfolio.netlify.app",
@@ -287,7 +295,7 @@ export const projects = [
         title: "Travel page",
         date: "Jun 2022 - Jul 2022",
         description:
-            "Travel website created as a practice test to enhance HTML, CSS, and JavaScript skills.",
+            "Travel website created as a practice test to enhance HTML, CSS, and JavaScript skills. This website is a landing page that have different sections, like places to explore with a carousel function, and a section to subscribe to a newsletter. It also includes a night mode",
         tags: [
             "HTML",
             "CSS",
@@ -306,7 +314,7 @@ export const projects = [
         title: "Login Page",
         date: "Jun 2022 - Jun 2022",
         description:
-            "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. Admin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials: #Email: testemployee@gmail.com #Password- 123@Testemployee",
+            "Login page created as a practical test to enhance HTML, CSS, and JavaScript skills (non-functional).",
         tags: ["HTML", "CSS", "Javascript", "Eslint"],
         category: "web page",
         repo: "https://github.com/MateoLoholaberry/Login-form",
@@ -318,7 +326,7 @@ export const projects = [
         title: "Calculator",
         date: "Nov 2022 - Nov 2022",
         description:
-            "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. Admin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials: #Email: testemployee@gmail.com #Password- 123@Testemployee",
+            "Calculator that performs basic arithmetic operations, built with html, css and vanilla javascript",
         tags: ["HTML", "CSS", "JavaScript"],
         category: "web page",
         repo: "https://github.com/MateoLoholaberry/calculadora-js",
