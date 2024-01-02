@@ -42,12 +42,7 @@ export const titleLinks = [
 
 export const Bio = {
     name: "Mateo Loholaberry",
-    roles: [
-        "Full stack developer",
-        "Mobile developer",
-        "UX/UI designer",
-        "Programmer",
-    ],
+    roles: ["Full stack developer", "Mobile developer", "Programmer"],
     description:
         "Highly motivated and passionate developer. I have strong skills in programming, problem-solving, and effective collaboration. I am continuously acquiring new skills to contribute in the best possible way to future projects.",
     github: "https://github.com/MateoLoholaberry",
